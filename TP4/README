@@ -1,0 +1,11 @@
+Pour le TP soit vous utilisez les fonctions Lecture_image, Ecriture_image Liberation_image_lue et Liberation_finale.
+Soit vous utilisez les fonctions Lecture_image_onemalloc, Ecriture_image_onemalloc Liberation_image_lue_onemalloc et Liberation_finale.
+
+Pour la première solution vous effecturez les communication collective MPI_Gatherv dans une boucle sur le nombre de ligne (height)
+Pour la deuxième solution il doit être possible de le faire par bloc.
+Cette deuxième solution est à faire que si vous êtes déjà à l'aise sur la première.
+
+Vous penserez à utiliser gdb pour tout debug.
+Pensez aussi à exécuter Valgrind sur votre code régulièrement.
+
+Si vous passez beaucoup de temps sur un bug et que vous réussissez à le corriger avec gdb, cela peut apparaître dans le rapport.
