@@ -285,6 +285,8 @@ int get_img_width_onemalloc(char* filename)
         printf("Read header ...\n");
         readBMP_header(img);
         assert(header != NULL);
+        /* close file */
+        fclose(img);
         return header->width;
 }
 
